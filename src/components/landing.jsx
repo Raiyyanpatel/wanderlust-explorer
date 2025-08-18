@@ -8,7 +8,7 @@ export const Landing = () => {
   return (
     <div className='w-full min-h-[100%] overflow-hidden relative'>
       <video autoPlay muted loop className="video-background opacity-100 brightness-150">
-        <source src="dist/bgvideooo.mp4" type="video/mp4" />
+        <source src="/bgvideooo.mp4" type="video/mp4" />
       </video>
       <div className="relative z-10">
         {showMap ? (
@@ -33,3 +33,4 @@ export const Landing = () => {
 
 
 export default Landing;
+
