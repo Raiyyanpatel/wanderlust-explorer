@@ -5,7 +5,7 @@ const genAI = new GoogleGenerativeAI(apiKey);
 
 // Define the model with appropriate settings
 const model = genAI.getGenerativeModel({
-  model: "gemini-1.5-pro",
+  model: "gemini-2.0-flash",
   systemInstruction: "You are a travel planner assistant. Create detailed travel itineraries in valid JSON format. Keep responses concise and well-structured.",
 });
 
@@ -33,4 +33,5 @@ export const chatSession = model.startChat({
     },
   ],
 });
+
 
